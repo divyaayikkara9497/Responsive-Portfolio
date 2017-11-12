@@ -31,14 +31,13 @@ nav {
 	float: left;
 	color: white;
 	font-family: 'Georgia';
-	font-size: 40px;
+	font-size: 30px;
 	background-color: #4aaaa5;
 	height: 100px;
 	line-height: 100px;
 	width: 25%;
 	text-align: center;
 	margin-left: 100px;
-
 }
 
 #About {
@@ -234,7 +233,7 @@ h3 {
 	height: 520px;
 	margin-left: 100px;
 	margin-bottom: 50px;
-	border: 1px solid #cccccc;
+	border: 2px solid #cccccc;
 	padding: 30px 60px;
 }
 
@@ -251,3 +250,45 @@ h3 {
 	height: 60px;
 	line-height: 60px;
 }
+
+@media screen and (max-width: 980px) {
+
+	header {
+		width: 100%;
+	}
+
+	.wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+
+	header {
+		width: 100%;
+	}
+
+	.wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	header {
+		width: 100%;
+	}
+
+	.wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+}
+
